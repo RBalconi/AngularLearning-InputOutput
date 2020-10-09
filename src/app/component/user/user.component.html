@@ -1,0 +1,12 @@
+<div class="content">
+  <div class="user">
+    {{ user.username }}
+  </div>
+  <div class="options">
+    <!--Not finalized-->
+    <button class="btn btn-yellow">[!] Editar</button>
+    <!---->
+
+    <button class="btn btn-red" (click)="delete(user.id)">[X] Apagar</button>
+  </div>
+</div>
